@@ -1,3 +1,5 @@
+import { ListItem } from "./style";
+
 export const Product = ({ name, price }) => {
     return (
         <ListItem>

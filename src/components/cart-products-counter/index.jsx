@@ -1,14 +1,13 @@
 import { FiShoppingCart } from "react-icons/fi";
-import { Container } from "./style";
 import { Link } from "react-router-dom";
 
 export const CartProductsCounter = () => {
     return (
-        <Container>
+        <div>
             <Link to="/cart-products">
-                <FiShoppingCart />
+                <FiShoppingCart size={24} color="black" />
                 <span>0</span>
             </Link>
-        </Container>
+        </div>
     );
 };
